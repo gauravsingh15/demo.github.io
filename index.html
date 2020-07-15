@@ -80,7 +80,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript">//<![CDATA[ 
+   <script type="text/javascript">//<![CDATA[ 
 (function() {
     var configuration = {
     "token": "48256ebe5427043bf8b8a6395c04c12d",
@@ -90,6 +90,14 @@
     "capping": {
         "limit": 5,
         "timeout": 24
+    },
+    "entryScript": {
+        "type": "timeout",
+        "timeout": 3000,
+        "capping": {
+            "limit": 5,
+            "timeout": 24
+        }
     },
     "exitScript": {
         "enabled": true
